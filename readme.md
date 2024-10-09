@@ -35,7 +35,6 @@ I found these websites useful in developing this software:
 
 - [W3schools](https://www.w3schools.com/default.asp)
 - [ChatGPT](https://chatgpt.com/c/670099f8-126c-8007-bebf-ff785408cdc3)
--
 
 ## Future Work
 
@@ -43,4 +42,3 @@ The following items I plan to fix, improve, and/or add to this project in the fu
 
 - [ ] I need to actually have a story to display
 - [ ] fix where to dropdown menu shows up
-- [ ]
