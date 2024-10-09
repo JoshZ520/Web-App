@@ -1,0 +1,25 @@
+body {
+  background-color: aqua;
+  text-align: center;
+}
+header {
+  max-width: 100%;
+  padding: 20px;
+  background-color: black;
+}
+nav ul li {
+  width: 100%;
+  list-style: none;
+}
+a {
+  font-size: x-large;
+  padding: 25px;
+  text-decoration: none;
+  color: royalblue;
+}
+a:hover {
+  color: white;
+}
+a:visited {
+  color: hotpink;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/game.css" />
+    <script defer src="scripts/game.js"></script>
+    <title>Choose your own adventure</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a> <a href="#">About Me</a>
+            <a href="game.html">Game</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Welcome to the game!</h1>
+    <button type="button" id="stButton">Start</button>
+    <div id="contentArea"></div>
+    <div id="dropdown" class="hidden">
+      <button type="button" onclick="dropDown()" class="dropbtn">
+        Dropdown
+      </button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#" onclick="addContent({heading: 'Page 2', paragraph: ''})"
+          >Go to page 2</a
+        >
+        <a href="#" onclick="addContent({heading: 'Page 3', paragraph: ''})"
+          >Go to Page 3</a
+        >
+        <a href="#" onclick="addContent({heading: 'Page 5', paragraph: ''})"
+          >Go to Page 5</a
+        >
+      </div>
+    </div>
+    <div id="content"></div>
+  </body>
+</html>

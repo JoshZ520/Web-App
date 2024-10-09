@@ -1,0 +1,128 @@
+{
+  "Page1": {
+    "Text": "You wake up in your room, laying in bed looking up at the ceiling. Thinking to yourself, you realize that you don't have anything to do today. Looking at your phone, you find that it's Saturday and you have the day all to yourself. It's a day of endless possiblities, so what would you like to do?",
+    "Options": [
+      { "Text": "If you go back to bed - p10", "Page": "Page10" },
+      { "Text": "If you head out of your house - p2", "Page": "Page2" },
+      { "Text": "Reset Button - p1", "Page": "Page1" }
+    ],
+    "PageType": "Choices"
+  },
+  "Page2": {
+    "Text": "You head out of your house and onto the street, towards the north there is a nice little cafe you go to occasionally. If you go West you might have a rare encounter, and if you have a death wish, I guess you could walk into the street. Where do you want to go?",
+    "Options": [
+      { "Text": "If you go North- p3", "Page": "Page3" },
+      { "Text": "If you go West - p4", "Page": "Page4" },
+      { "Text": "Walk into the street - p5", "Page": "Page5" }
+    ],
+    "PageType": "Choices"
+  },
+  "Page3": {
+    "Text": "You walk until you get to the cafe. Would you want to go inside?",
+    "Options": [
+      { "Text": "Yes, Go inside - p6", "Page": "Page6" },
+      { "Text": "No, Keep walking - p7", "Page": "Page7" },
+      {
+        "Text": "Made a mistake? Want to start over, here you go. - p1",
+        "Page": "Page1"
+      }
+    ],
+    "PageType": "Choices"
+  },
+  "Page4": {
+    "Text": "You go west, and see a blue police phone box along the sidewalk. Open it?",
+    "Options": [
+      { "Text": "Open the door and walk inside - p8", "Page": "Page8" },
+      { "Text": "Walk past - p9", "Page": "Page9" },
+      {
+        "Text": "Made a mistake? Want to start over, here you go. - p1",
+        "Page": "Page1"
+      }
+    ],
+    "PageType": "Choices"
+  },
+  "Page5": {
+    "Text": "You miraculously walk across a busy street and come to a building, do you go inside?",
+    "Options": [
+      { "Text": "Yes, Go inside - p11", "Page": "Page11" },
+      { "Text": "No, Keep standing there - p12", "Page": "Page12" },
+      {
+        "Text": "Made a mistake? Want to start over, here you go. - p1",
+        "Page": "Page1"
+      }
+    ],
+    "PageType": "Choices"
+  },
+  "Page6": {
+    "Text": "You go inside the cafe and get a drink, it was poisoned, you die",
+    "Options": [
+      { "Text": "Here, Try Again", "Page": "Page1" },
+      { "Text": "Here, Try Again", "Page": "Page1" },
+      { "Text": "Here, Try Again", "Page": "Page1" }
+    ],
+    "PageType": "B_Ending"
+  },
+  "Page7": {
+    "Text": "You walk off into the Sunset and live happliy ever after!",
+    "Options": [
+      { "Text": "Here, Try Again", "Page": "Page1" },
+      { "Text": "Here, Try Again", "Page": "Page1" },
+      { "Text": "Here, Try Again", "Page": "Page1" }
+    ],
+    "PageType": "G_Ending"
+  },
+  "Page8": {
+    "Text": "You open the door to find...a normal police phone box.",
+    "Options": [
+      { "Text": "Here, Try Again", "Page": "Page1" },
+      { "Text": "Here, Try Again", "Page": "Page1" },
+      { "Text": "Here, Try Again", "Page": "Page1" }
+    ],
+    "PageType": "B_Ending"
+  },
+  "Page9": {
+    "Text": "You walk past the blue police phone box and hear a strange noise, you look towards it and see the box disappearing.",
+    "Options": [
+      { "Text": "Here, Try Again", "Page": "Page1" },
+      { "Text": "Here, Try Again", "Page": "Page1" },
+      { "Text": "Here, Try Again", "Page": "Page1" }
+    ],
+    "PageType": "G_Ending"
+  },
+  "Page10": {
+    "Text": "What?! I put in all this work to give you a ton of options and you are just throwing it all away!! Just hit the button to try again and don't come back here again!",
+    "Options": [
+      { "Text": "Here, Try Again", "Page": "Page1" },
+      { "Text": "Here, Try Again", "Page": "Page1" },
+      { "Text": "I want to keep sleeping", "Page": "Page13" }
+    ],
+    "PageType": "B_Ending"
+  },
+  "Page11": {
+    "Text": "You walk inside the mysterious building and find 3 red and white ball shaped things on the ground.",
+    "Options": [
+      { "Text": "Here, Try Again", "Page": "Page1" },
+      { "Text": "Here, Try Again", "Page": "Page1" },
+      { "Text": "Here, Try Again", "Page": "Page1" }
+    ],
+    "PageType": "G_Ending"
+  },
+  "Page12": {
+    "Text": "You stand there marveling at the building and a car comes onto the sidewalk and hits you",
+    "Options": [
+      { "Text": "Here, Try Again", "Page": "Page1" },
+      { "Text": "Here, Try Again", "Page": "Page1" },
+      { "Text": "Here, Try Again", "Page": "Page1" }
+    ],
+    "PageType": "B_Ending"
+  },
+  "Page13": {
+    "Text": "Noooo, You can't just sleep all day! I won't allow it.",
+    "Options": [
+      { "Text": "Here, Try Again", "Page": "Page1" },
+      { "Text": "Here, Try Again", "Page": "Page1" },
+      { "Text": "Here, Try Again", "Page": "Page1" }
+    ],
+    "PageType": "B_Ending"
+  }
+}

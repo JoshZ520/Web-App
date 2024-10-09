@@ -1,0 +1,18 @@
+{
+  "Page1": {
+    "Paragraph": "You are a brave adventurer, seeking fame and fortune. A rumor has spread about a hidden dragon's hoard deep within the mountains. Will you risk your life to claim the treasure, or turn your attention to a more peaceful pursuit?",
+    "Options": [
+      { "Text": "Go to Page 2", "Page": "Page2" },
+      { "Text": "Go to Page 3", "Page": "Page3" },
+      { "Text": "Go to Page 5", "Page": "Page5" }
+    ]
+  },
+  "Page2": {
+    "Paragraph": "",
+    "Options": [
+      { "Text": "Go to Page 4", "Page": "Page4" },
+      { "Text": "Go to Page 6", "Page": "Page6" },
+      { "Text": "Go to Page 5", "Page": "Page5" }
+    ]
+  }
+}
