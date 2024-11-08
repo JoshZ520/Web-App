@@ -67,6 +67,8 @@ nav ul li {
   list-style: none;
 }
 a {
+  font-size: x-large;
+  padding: 25px;
   text-decoration: none;
   color: royalblue;
 }
